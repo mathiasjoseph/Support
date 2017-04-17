@@ -1,0 +1,43 @@
+{
+  "name": "mikycorp/support",
+  "type": "library",
+  "description": "",
+  "keywords": [],
+  "homepage": "http://electron-agency.fr",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mathias Joseph",
+      "homepage": "http://electron-agency.fr"
+    },
+  ],
+  "require": {
+    "php": "^5.6|^7.0",
+    "doctrine/doctrine-bundle": "~1.4",
+    "doctrine/orm": "^2.4.8",
+    "incenteev/composer-parameter-handler": "~2.0",
+    "sensio/distribution-bundle": "~4.0",
+    "sensio/framework-extra-bundle": "^3.0.2",
+    "symfony/assetic-bundle": "~2.3",
+    "symfony/monolog-bundle": "^3.0.2",
+    "symfony/swiftmailer-bundle": "~2.3,>=2.3.10",
+    "symfony/symfony": "2.8.*",
+    "twig/twig": "^1.0||^2.0",
+    "mikycorp/core": "dev-master"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Miky\\Component\\Support" : ""
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "target-dir" : "Miky/Component/Support",
+  "repositories" : [{
+  }],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
