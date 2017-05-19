@@ -23,7 +23,7 @@
     "symfony/swiftmailer-bundle": "~2.3,>=2.3.10",
     "symfony/symfony": "2.8.*",
     "twig/twig": "^2.0",
-    "mikycorp/core": "dev-master"
+    "mikycorp/core": "~1.0"
   },
   "autoload" : {
     "psr-0" : {
